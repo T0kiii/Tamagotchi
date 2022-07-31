@@ -47,20 +47,14 @@ Valores aleatorios:
 
 SALUD (100%)
 
-#comer X veces al día afecta a su - ALIMENTACIÓN(25%), el no hacerlo irá rebajando sus stats y viceversa
+- comer X veces al día afecta a su - ALIMENTACIÓN(25%), el no hacerlo irá rebajando sus stats y viceversa
     
-#jugar X veces al día afecta a su - ESTAMINA (25%)   
-                                  - FELICIDAD (25%)
-                                  el no hacerlo irá rebajando sus stats y viceversa
+- jugar X veces al día afecta a su - ESTAMINA (25%) y - FELICIDAD (25%), el no hacerlo irá rebajando sus stats y viceversa
                                  
-#lavar X veces a la mascota afecta a su - HIGIENE (25%)
-                                        el no hacerlo irá rebajando sus stats más lentamente que el resto (?) y viceversa
+- lavar X veces a la mascota afecta a su - HIGIENE (25%), el no hacerlo irá rebajando sus stats más lentamente que el resto (?) y viceversa
 
-#que tu mascota quiera jugar o no dependerá de su  - ESTAMINA 
-                                                   - MOOD
-                                                   (por ejemplo, si ESTAMINA < X y MOOD es X, la mascota no quiere jugar)
-                                                   
-- Tenemos que encontrar una forma de volver a la normalidad en el caso de que la falta de estamina no te permita jugar con la mascota y por tanto aumentar la estamina a niveles aceptables
+- que tu mascota quiera jugar o no dependerá de su  - ESTAMINA y - MOOD (por ejemplo, si ESTAMINA < X y MOOD es X, la mascota no quiere jugar)
+                                                   Tenemos que encontrar una forma de volver a la normalidad en el caso de que la falta de estamina no te permita jugar con la mascota y por tanto aumentar la estamina a niveles aceptables
                                                  
                                                  
    
