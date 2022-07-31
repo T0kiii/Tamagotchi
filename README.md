@@ -1,6 +1,6 @@
 # Tamagotchi
 
-Juego mascota virtual con GUI en Python (V)
+Juego mascota virtual con GUI en Python 
 
 ## Objetivos
 
