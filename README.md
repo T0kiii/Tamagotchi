@@ -49,6 +49,7 @@ SALUD (100%)
     - comer X veces al día afecta a su - ALIMENTACIÓN(25%), el no hacerlo irá rebajando sus stats y viceversa
     
     - jugar X veces al día afecta a su - ESTAMINA (25%) y - FELICIDAD (25%), el no hacerlo irá rebajando sus stats y viceversa
+      cuanto más a menudo juegues con él, más rápido y sencillo aumenta su nivel de estamina
                                  
     - lavar X veces a la mascota afecta a su - HIGIENE (25%), el no hacerlo irá rebajando sus stats más lentamente que el resto (?) y viceversa
 
