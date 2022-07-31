@@ -64,6 +64,6 @@ Tenemos que encontrar una forma de volver a la normalidad en el caso de que la f
 
 ## Recursos
 
-[Configurar entorno desarrollo en Python y correr Flask](https://phoenixnap.com/kb/install-flask)
-[Desarrollo de un servicio Web tipo REST en formato JSON con Python y Flask](https://www.youtube.com/watch?v=yAEaMFFsgSw)
-[Curso Python. Interfaces gráficas](https://www.youtube.com/watch?v=hTUJC8HsC2I)
+- [Configurar entorno desarrollo en Python y correr Flask](https://phoenixnap.com/kb/install-flask)
+- [Desarrollo de un servicio Web tipo REST en formato JSON con Python y Flask](https://www.youtube.com/watch?v=yAEaMFFsgSw)
+- [Curso Python. Interfaces gráficas](https://www.youtube.com/watch?v=hTUJC8HsC2I)
