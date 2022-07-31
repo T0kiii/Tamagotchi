@@ -20,8 +20,7 @@ Juego mascota virtual con GUI en Python
   - Limpiar
   - Mimar
 
-VARIABLE PRINCIPAL: SALUD
-OBJETIVO: QUE EL BICHO NO MUERA
+VARIABLE PRINCIPAL: SALUD   OBJETIVO: QUE EL BICHO NO MUERA
  
 La salud depende de varios factores:
  
