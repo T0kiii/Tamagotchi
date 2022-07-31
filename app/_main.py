@@ -14,6 +14,7 @@ TITULO = "Tamagotchi"
 # De pendiendo del SO el icono tiene que ser de un formato determinado
 ICONO_LINUX = "assets/iconos/icono.png"
 ICONO_WINDOWS = "assets/iconos/icono.ico"
+SERVIDOR = "http://127.0.0.1:5000"
 
 
 def cargarIcono():

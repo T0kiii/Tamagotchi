@@ -2,6 +2,11 @@
 
 Juego mascota virtual con GUI en Python 
 
+
+- [Tamagotchi](#tamagotchi)
+  - [Objetivos](#objetivos)
+  - [Recursos](#recursos)
+
 ## Objetivos
 
 - Aplicación multiplataforma con interfaz gráfica:
@@ -56,3 +61,9 @@ SALUD (100%)
     - que tu mascota quiera jugar o no dependerá de su  - ESTAMINA y - MOOD (por ejemplo, si ESTAMINA < X y MOOD es X, la mascota no quiere jugar)
                            
 Tenemos que encontrar una forma de volver a la normalidad en el caso de que la falta de estamina no te permita jugar con la mascota y por tanto aumentar la estamina a niveles aceptables.                                                                                               
+
+## Recursos
+
+[Configurar entorno desarrollo en Python y correr Flask](https://phoenixnap.com/kb/install-flask)
+[Desarrollo de un servicio Web tipo REST en formato JSON con Python y Flask](https://www.youtube.com/watch?v=yAEaMFFsgSw)
+[Curso Python. Interfaces gráficas](https://www.youtube.com/watch?v=hTUJC8HsC2I)
