@@ -2,6 +2,7 @@
 
 Juego mascota virtual con GUI en Python 
 
+
 - [Tamagotchi](#tamagotchi)
   - [Objetivos](#objetivos)
   - [Recursos](#recursos)
@@ -60,7 +61,6 @@ SALUD (100%)
     - que tu mascota quiera jugar o no dependerá de su  - ESTAMINA y - MOOD (por ejemplo, si ESTAMINA < X y MOOD es X, la mascota no quiere jugar)
                            
 Tenemos que encontrar una forma de volver a la normalidad en el caso de que la falta de estamina no te permita jugar con la mascota y por tanto aumentar la estamina a niveles aceptables.                                                                                               
-
 
 ## Recursos
 
