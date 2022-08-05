@@ -1,0 +1,58 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        },{
+            "label": "Crear entorno",
+            "type": "shell",
+            "command": "python3 -m venv tamago-server",
+            "windows":{
+                "command":"py -3 -m venv tamago-server"
+            },
+            "dependsOrder": "sequence",
+            "dependsOn": ["Crear carpeta de servidor", "Mover a carpeta de servidor"],
+        },{
+            "label": "Crear carpeta de servidor",
+            "type": "shell",
+            "command": "mkdir tamago-server",
+        },{
+            "label": "Mover a carpeta de servidor",
+            "type": "shell",
+            "command": "cd tamago-server",
+        },{
+            "label": "Arrancar entorno",
+            "type": "shell",
+            "command": ". tamago-server/bin/activate",
+            "windows":{
+                "command":"tamago-server\\Scripts\\activate"
+            },
+        },{
+            "label": "Desactivar entorno",
+            "type": "shell",
+            "command": "deactivate",
+        },{
+            "label": "Borrar entorno",
+            "type": "shell",
+            "command": "rm -rf tamago-server",
+            "dependsOrder": "sequence",
+            "dependsOn": ["Desactivar entorno"],
+        },{
+            "label": "Asignar tamago-server a env FLASK_APP",
+            "type": "shell",
+            "command": "export FLASK_APP=tamago-server/lib64/python3.10/site-packages/flask/tamago_server.py",
+            "windows":{
+                "command":"setx FLASK_APP \"tamago-server\\lib64\\python3.10\\site-packages\\flask\\tamago_server.py\""
+            },
+        },{
+            "label": "Arrancar servidor",
+            "type": "shell",
+            "command": "flask run",
+            "group": "build"
+        },
+    ]
+}
